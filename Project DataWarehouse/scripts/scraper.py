@@ -53,4 +53,3 @@ if df.empty:
     print("❌ Still no data → tell me")
 else:
     df.to_csv("data/bronze/news.csv", index=False)
-    print(f"✅ Saved {len(df)} articles")
